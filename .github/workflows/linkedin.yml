@@ -1,0 +1,37 @@
+name: linkedin-search
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  search:
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: pip install ddgs
+      - name: Pad chunk number
+        id: pad
+        run: |
+          printf -v N "%02d" ${{ matrix.chunk }}
+          echo "n=$N" >> $GITHUB_OUTPUT
+      - name: Search LinkedIn URLs
+        run: |
+          python3 scripts/search_chunk.py chunks/chunk_${{ steps.pad.outputs.n }}.json out_${{ steps.pad.outputs.n }}.csv
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-${{ steps.pad.outputs.n }}
+          path: out_${{ steps.pad.outputs.n }}.csv
+          retention-days: 7
