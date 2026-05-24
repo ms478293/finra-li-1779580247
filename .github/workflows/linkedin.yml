@@ -26,9 +26,7 @@ jobs:
         run: |
           printf -v N "%02d" ${{ matrix.chunk }}
           echo "n=$N" >> $GITHUB_OUTPUT
-      - name: Search LinkedIn URLs (DDGS via Webshare residential proxy)
-        env:
-          PROXY_URL: ${{ secrets.PROXY_URL }}
+      - name: Search LinkedIn URLs (DDGS direct, proxy disabled)
         run: |
           python3 scripts/search_chunk.py chunks/chunk_${{ steps.pad.outputs.n }}.json out_${{ steps.pad.outputs.n }}.csv
       - name: Upload artifact
