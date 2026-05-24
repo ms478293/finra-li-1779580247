@@ -199,7 +199,10 @@ def main():
             for r in csv.DictReader(f):
                 done[r['crd']] = (r.get('linkedin_url', ''), r.get('engine', ''))
 
-    ddgs = DDGS()
+    proxy = os.environ.get("PROXY_URL", "").strip() or None
+    if proxy:
+        print(f"using proxy: {proxy.split('@')[-1]}", flush=True)
+    ddgs = DDGS(proxy=proxy) if proxy else DDGS()
     ddgs_throttle_until = [0.0]  # mutable for closures
 
     fieldnames = ['crd', 'linkedin_url', 'query', 'engine']
