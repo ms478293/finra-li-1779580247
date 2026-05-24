@@ -8,9 +8,10 @@ jobs:
   search:
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 40
       matrix:
-        chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+        chunk: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,
+                20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39]
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
@@ -25,7 +26,7 @@ jobs:
         run: |
           printf -v N "%02d" ${{ matrix.chunk }}
           echo "n=$N" >> $GITHUB_OUTPUT
-      - name: Search LinkedIn URLs
+      - name: Search LinkedIn URLs (DDGS + Brave + Mojeek fallback)
         run: |
           python3 scripts/search_chunk.py chunks/chunk_${{ steps.pad.outputs.n }}.json out_${{ steps.pad.outputs.n }}.csv
       - name: Upload artifact
