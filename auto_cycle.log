@@ -1,2 +1,8 @@
 === CYCLE 1 / 8 ===
-watching run 26375944298...
+watching run 26376115103...
+run 26376115103 completed at Sun May 24 19:54:34 EDT 2026
+merged: 348603 rows, 2434 LinkedIn hits
+remaining brokers: 623535
+already found: 139759
+remaining: 623534
+wrote 40 chunks @ ~15589 brokers each
