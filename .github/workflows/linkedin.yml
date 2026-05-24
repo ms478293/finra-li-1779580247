@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install deps
-        run: pip install ddgs
+        run: pip install ddgs httpx
       - name: Pad chunk number
         id: pad
         run: |
