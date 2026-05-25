@@ -26,9 +26,17 @@ jobs:
         run: |
           printf -v N "%02d" ${{ matrix.chunk }}
           echo "n=$N" >> $GITHUB_OUTPUT
-      - name: Search LinkedIn URLs (DDGS direct, proxy disabled)
+      - name: Pick search script (prev-firm if .prevfirm marker present)
+        id: pick
         run: |
-          python3 scripts/search_chunk.py chunks/chunk_${{ steps.pad.outputs.n }}.json out_${{ steps.pad.outputs.n }}.csv
+          if [ -f .prevfirm ]; then
+            echo "script=scripts/search_chunk_prevfirm.py" >> $GITHUB_OUTPUT
+          else
+            echo "script=scripts/search_chunk.py" >> $GITHUB_OUTPUT
+          fi
+      - name: Search LinkedIn URLs
+        run: |
+          python3 ${{ steps.pick.outputs.script }} chunks/chunk_${{ steps.pad.outputs.n }}.json out_${{ steps.pad.outputs.n }}.csv
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
