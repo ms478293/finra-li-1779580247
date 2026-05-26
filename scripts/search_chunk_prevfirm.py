@@ -21,7 +21,7 @@ OUT = sys.argv[2]
 
 LRE = re.compile(r'linkedin\.com/in/[a-zA-Z0-9_\-]+', re.I)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-CONCURRENCY = 20
+CONCURRENCY = 30
 
 
 def strip_accents(s):

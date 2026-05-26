@@ -15,7 +15,7 @@ for cycle in $(seq 1 $CYCLES_MAX); do
   echo "--- CYCLE $cycle/$CYCLES_MAX $(date +%H:%M) ---" | tee -a $LOG
 
   # 1. Re-chunk unfilled 2024+ brokers; grab "unfilled: N" from stderr
-  $PYBIN scripts/extract_recent.py 40 2024 chunks 2>&1 | tee -a $LOG > /tmp/extract.out
+  $PYBIN scripts/extract_recent.py 100 2024 chunks 2>&1 | tee -a $LOG > /tmp/extract.out
   REMAIN=$(grep -oE 'unfilled: [0-9]+' /tmp/extract.out | head -1 | grep -oE '[0-9]+')
   echo "unfilled 2024+: ${REMAIN:-0}" | tee -a $LOG
   if [ -z "$REMAIN" ] || [ "$REMAIN" -lt 500 ]; then
