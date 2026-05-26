@@ -32,7 +32,9 @@ jobs:
       - name: Pick search script
         id: pick
         run: |
-          if [ -f .strict ]; then
+          if [ -f .strict_v2 ]; then
+            echo "script=scripts/search_chunk_v2.py" >> $GITHUB_OUTPUT
+          elif [ -f .strict ]; then
             echo "script=scripts/search_chunk_strict.py" >> $GITHUB_OUTPUT
           elif [ -f .prevfirm ]; then
             echo "script=scripts/search_chunk_prevfirm.py" >> $GITHUB_OUTPUT
