@@ -3,7 +3,7 @@
 set -e
 REPO=ms478293/finra-li-1779580247
 WORKDIR=/tmp/finra-li-clone
-CYCLES_MAX=5
+CYCLES_MAX=50
 PYBIN=/opt/homebrew/bin/python3
 MIN_NOVEL=500  # stop loop if novel hits this low
 
