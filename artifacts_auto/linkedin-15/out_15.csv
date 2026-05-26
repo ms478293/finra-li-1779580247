@@ -1,110 +1,101 @@
 crd,linkedin_url,query,engine
-4301595,https://linkedin.com/in/suzannehutsell,Suzanne Ice PNC linkedin,brave
-4307886,https://linkedin.com/in/kami-zonin-308352126,Kami Zonin CETERA linkedin,brave
-4320439,https://linkedin.com/in/david-zabela-97286154,DAVID ZABELA PNC linkedin,brave
-4323449,https://linkedin.com/in/ana-lois-davis-2b6858277,Lois Davis linkedin,startpage
-4315534,,DOROTHY PAO linkedin,
-4302181,,KRYSTAL PHY linkedin,
-4325467,,REBECCA RIJ-FLYNN linkedin,
-4319477,,Bradley Laczny linkedin,
-4324296,,Timothy Karacsony linkedin,
-4313322,,JOSEPH GONTARZ linkedin,
-4321571,,CRAIG SURPRISE linkedin,
-4333190,https://linkedin.com/in/jake-elmhirst-72195a51,RICHARD ELMHIRST UBS linkedin,startpage
-4302485,,ERICKA LAMSEK linkedin,
-4312543,,BRIAN GURBARG linkedin,
-4317986,,KRIS MOOS linkedin,
-4326767,,MAURICE LOUNDS linkedin,
-4332711,https://linkedin.com/in/kelly-gibson-03714a24,KELLY GIBSON SECURITIES linkedin,startpage
-4304402,,Lyenda Delp linkedin,
-4325835,,KARL THOMASON linkedin,
-4318250,,THOMAS CHIEGO linkedin,
-4334782,https://linkedin.com/in/markheck,MARK HECK LPL linkedin,startpage
-4330969,,Tamim Naemi linkedin,
-4334569,https://linkedin.com/in/nate-geurkink-goiri5h,NATHAN GEURKINK JOHN linkedin,startpage
-4318347,,TIJINEKIA TELFORD linkedin,
-4306371,,Ramonette Belen linkedin,
-4320003,,MELVILLE WAITHE linkedin,
-4304928,,SABINA VALIC linkedin,
-4328426,,Luther Bazzle linkedin,
-4330198,,KENNETH PATTON linkedin,
-4297877,,JOSEPH KOLAD linkedin,
-4334933,,GEORGE RAGGETS linkedin,
-4302266,,Matthew Pargin linkedin,
-4320077,,WILFRED DAYE linkedin,
-4327199,,Arnulfo Gracia linkedin,
-4293780,,MAUREEN CASTOR linkedin,
-4332746,,DONALD BEEM linkedin,
-4333330,,JAMES WINSKIE linkedin,
-4328092,,GABRIEL BROGDEN linkedin,
-4326704,,Quincy Garcia linkedin,
-4335569,,Adam Hinton linkedin,
-4311748,,Jelecia Beverley linkedin,
-4296953,,KEVIN TAVAS linkedin,
-4334319,,PATRICK GEORGE linkedin,
-4335800,,ANTHONY GIORGIO linkedin,
-4335056,,CESAR PENA linkedin,
-4335641,,Lance Cabra linkedin,
-4337147,,RIDHA NOUAILI linkedin,
-4336192,,LARRY ROTH linkedin,
-4333262,,RAYMOND CEBULAR linkedin,
-4335002,,Jeremy Fisher linkedin,
-4335346,,Vaseleke Angelos linkedin,
-4338840,,RICHARD GIGLIOTTI linkedin,
-4338945,,JOSHUA RIENKS linkedin,
-4337716,,Martin Fosvick linkedin,
-4334960,,Jason Cohn linkedin,
-4335663,,RICHARD POMBO linkedin,
-4337288,,JUSTIN STAUFFER linkedin,
-4335845,,DONALD HALL linkedin,
-4333693,,Shawn Kinney linkedin,
-4337891,,JOHN GRADY linkedin,
-4340530,,TINDARO CATANIA linkedin,
-4337530,,Troy Perkins linkedin,
-4339923,,Paige Fraga linkedin,
-4340710,,Melissa Garcia linkedin,
-4340321,,Craig Yost linkedin,
-4340572,,ROBERT KINNALLY linkedin,
-4338587,,BENJAMIN STACY linkedin,
-4345028,,Shelby Smith linkedin,
-4341329,,Diane Allen linkedin,
-4336390,,JOSEPH VELEZ linkedin,
-4342530,,Saul Mendoza linkedin,
-4343760,,RAO ANAND linkedin,
-4341117,,KEVIN DEMENT linkedin,
-4340933,,KEITH LARSEN linkedin,
-4341361,,RUSHIN SHAH linkedin,
-4341979,,MARK MELDA linkedin,
-4342383,,BERNARD BARROW linkedin,
-4340276,,Philip Haigis linkedin,
-4342582,,BRIAN ELMS linkedin,
-4345921,,Jessica Fiedler linkedin,
-4344329,,RANDALL KING linkedin,
-4346065,,WADID YUNEZ linkedin,
-4343845,,DANIEL WOLFF linkedin,
-4353973,,GWENUEL MINGO linkedin,
-4342824,,JASON DEGOLYER linkedin,
-4344269,,Nichol Stimac linkedin,
-4338979,,Michael Demler II linkedin,
-4345941,,MICHAEL MULHERN linkedin,
-4359350,,Holli Kosogof linkedin,
-4345711,,CHAD THOLE linkedin,
-4345072,,Ryan Fossey linkedin,
-4347346,,JEFFREY THIELEN linkedin,
-4345729,,Adam Inzirillo linkedin,
+4337891,https://linkedin.com/in/johndgrady,JOHN GRADY DFPG linkedin,startpage
+4340572,https://linkedin.com/in/robert-d-kinnally-jr-clu-b87b1797,ROBERT KINNALLY OSAIC linkedin,startpage
+4340710,https://linkedin.com/in/melissa-garcia-lcsw-mba-2934a7115,Melissa Garcia PARK linkedin,startpage
+4339923,https://linkedin.com/in/paige-fraga-25182012,Paige Fraga RAYMOND linkedin,startpage
+4338979,https://linkedin.com/in/jessica-demler-a5163417,Michael Demler II T. linkedin,startpage
+4345711,https://linkedin.com/in/chad-thole-68813b19a,"CHAD THOLE STIFEL, linkedin",startpage
+4338840,https://linkedin.com/in/markgigliotti,RICHARD GIGLIOTTI OSAIC linkedin,startpage
+4341329,https://linkedin.com/in/sue-ellen-tindall-392a305,Diane Allen JANNEY linkedin,startpage
+4340933,https://linkedin.com/in/kylelarsen1819,KEITH LARSEN EQUITY linkedin,startpage
+4341979,https://linkedin.com/in/meldaakin,MARK MELDA AMERICAN linkedin,startpage
+4340276,https://linkedin.com/in/phhaigis,Philip Haigis RAYMOND linkedin,startpage
+4342530,https://linkedin.com/in/saul-mendoza-financialservices-consultant,Saul Mendoza T. linkedin,startpage
+4344329,https://linkedin.com/in/davidkingfortress,RANDALL KING OSAIC linkedin,startpage
+4341117,https://linkedin.com/in/kevin-dement-qka-cpfa-81b0aa79,KEVIN DEMENT CETERA linkedin,startpage
+4345028,https://linkedin.com/in/glenn-shelby-smith-1b124753,Shelby Smith KESTRA linkedin,startpage
+4342383,https://linkedin.com/in/chris-barrow-7606968,BERNARD BARROW OSAIC linkedin,startpage
+4343760,https://linkedin.com/in/anand-n-rao,RAO ANAND CETERA linkedin,startpage
+4343845,https://linkedin.com/in/dan-wolff-123a55,DANIEL WOLFF FLEXTRADE linkedin,startpage
+4344269,https://linkedin.com/in/nichol-stimac-0341856,Nichol Stimac WELLS linkedin,startpage
+4340530,https://linkedin.com/in/tindaro-catania-952450121,TINDARO CATANIA OSAIC linkedin,brave
+4341361,https://linkedin.com/in/harsh-shah-13a647148,RUSHIN SHAH INVESCO linkedin,startpage
+4345072,https://linkedin.com/in/ryan-fossey-b7b15a5,Ryan Fossey MERRILL linkedin,startpage
+4338587,https://linkedin.com/in/stacy-bone-2592227,BENJAMIN STACY MERRILL linkedin,startpage
+4348191,https://linkedin.com/in/carlo-j-fitti-9005453,CARLO FITTI COLLIERS linkedin,startpage
+4345941,https://linkedin.com/in/kristen-mulhern-48799520,MICHAEL MULHERN OSAIC linkedin,startpage
+4347346,https://linkedin.com/in/jeremythielen,JEFFREY THIELEN SECURITIES linkedin,startpage
 4362161,,CHRISTIE IRIBARREN linkedin,
+4353973,,GWENUEL MINGO linkedin,
+4359350,,Holli Kosogof linkedin,
+4346875,https://linkedin.com/in/charlotte-geraghty-b6987b338,Lorraine Geraghty UBS linkedin,startpage
+4345921,,Jessica Fiedler linkedin,
+4342582,https://linkedin.com/in/james-elms-b57a6b136,BRIAN ELMS EDWARD linkedin,startpage
+4347894,https://linkedin.com/in/patrick-bohen-b2732213,"JOSEPH BOHEN CADARET, linkedin",startpage
 4371477,,SHEILA LOBB linkedin,
+4346065,,WADID YUNEZ linkedin,
+4342824,,JASON DEGOLYER linkedin,
+4345729,,Adam Inzirillo linkedin,
+4337530,https://linkedin.com/in/troy-w-perkins,Troy Perkins WELLS linkedin,startpage
+4338945,,JOSHUA RIENKS linkedin,
 4372496,,ELAINE VANDEEST linkedin,
-4347894,,JOSEPH BOHEN linkedin,
-4348191,,CARLO FITTI linkedin,
-4346875,,Lorraine Geraghty linkedin,
-4349318,,Tene Mirjah linkedin,
-4379191,,WILLIAM PECARRO linkedin,
-4358016,,DAVID JOZEFEK linkedin,
 4390295,,RODNEY TAMENO linkedin,
-4365491,,William Matyi linkedin,
+4337716,,Martin Fosvick linkedin,
+4379191,,WILLIAM PECARRO linkedin,
+4340321,,Craig Yost linkedin,
+4358016,,DAVID JOZEFEK linkedin,
 4397435,,Kelly Saurbaugh linkedin,
-4400636,,FREDERICK ANGST linkedin,
 4363137,,SEAN DRANFIELD linkedin,
+4437642,,RYAN WOYTCKE linkedin,
+4400636,,FREDERICK ANGST linkedin,
 4375449,,QUINN IM linkedin,
+4365491,,William Matyi linkedin,
+4349318,,Tene Mirjah linkedin,
 4390669,,SUPPACHOK SUBUDHAYANGKUL linkedin,
+4432883,,TRAVIS KIKUCHI linkedin,
+4424087,,MICHAEL WOCHNICK linkedin,
+4419423,,JAMES WOLSLAGER linkedin,
+4402341,,Jessica Oliveras-Yu linkedin,
+4436156,,FILIPPO ZORZOLI linkedin,
+4437215,,ALEXANDRA PAVILLET-BESBES linkedin,
+4402971,,JAVIER VINCENTI linkedin,
+4435252,,LAWRENCE STOA linkedin,
+4438676,,YUKARI TAGUCHI linkedin,
+4443105,,PEGGY RANFELD linkedin,
+4441199,,WILLIAM YARD linkedin,
+4455114,,JEREMY SANDLER linkedin,
+4452752,,JEAN BREIDER linkedin,
+4445248,,TERESA YRAGUI linkedin,
+4410138,,Angela Ogbolu linkedin,
+4445102,,Whitney O'Quinn linkedin,
+4454561,,TERRENCE TRIMUEL linkedin,
+4453668,,JEFF WINEKA linkedin,
+4447090,,JOSE CONEN linkedin,
+4445542,,ALEXIS KRAJCSOVICS linkedin,
+4446888,,JAMES VANKE linkedin,
+4458772,,Matthew Hills linkedin,
+4457517,,ROSEANN CRETELLA linkedin,
+4454787,,knitwanza drayton linkedin,
+4458027,,R ROWLAND linkedin,
+4457270,,Jane Choi linkedin,
+4455259,,MICHAEL DARR linkedin,
+4456627,,SUMMI SARDANA linkedin,
+4458763,,TROY GREELEY linkedin,
+4457172,,PAULA TARPEY linkedin,
+4455346,,VLASTIMIR ZIVKOV linkedin,
+445527,,RAYMOND THOMES linkedin,
+4460955,,CHARLES BIBEE linkedin,
+4460510,,NICHOLAS WARD linkedin,
+4459034,,Edward Rumell linkedin,
+4458882,,Myung Woon Chun linkedin,
+4459861,,Mark Sollenberger linkedin,
+4459074,,CRAIG ROSS linkedin,
+4459176,,JULIE KOV linkedin,
+4458822,,Diana Gonzalez linkedin,
+4461563,,DONNA GALLO linkedin,
+4459848,,ASHLEY PEDERSEN linkedin,
+4459236,,Patrick Thomson linkedin,
+4461678,,DAVID DAVIS linkedin,
+4461190,,GINO MOLETTIERI linkedin,
+4461779,,JOSHUA RUBINGER linkedin,
+4462045,,SHELLY MALONE linkedin,
