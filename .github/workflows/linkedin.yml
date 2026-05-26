@@ -29,10 +29,12 @@ jobs:
         run: |
           printf -v N "%02d" ${{ matrix.chunk }}
           echo "n=$N" >> $GITHUB_OUTPUT
-      - name: Pick search script (prev-firm if .prevfirm marker present)
+      - name: Pick search script
         id: pick
         run: |
-          if [ -f .prevfirm ]; then
+          if [ -f .strict ]; then
+            echo "script=scripts/search_chunk_strict.py" >> $GITHUB_OUTPUT
+          elif [ -f .prevfirm ]; then
             echo "script=scripts/search_chunk_prevfirm.py" >> $GITHUB_OUTPUT
           else
             echo "script=scripts/search_chunk.py" >> $GITHUB_OUTPUT
